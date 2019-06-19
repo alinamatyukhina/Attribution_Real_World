@@ -9,6 +9,7 @@ import re
 import math
 from collections import Counter
 import glob, os
+import sys
 
 from nltk.util import ngrams
 import collections
@@ -43,10 +44,6 @@ for split_word in range(1, 10):
 
 
     print("///////////////////////Begin of creating all_unigram.txt file//////////")
-
-    import glob, os
-
-    import re
 
     open("all_%dword.txt" % split_word, 'w').close()
     import re
@@ -83,20 +80,7 @@ for split_word in range(1, 10):
 
 
     print("///////////////////////Begin of creating term_freq_unigram.arff file//////////")
-    import re
-    import itertools
-
-    # import numpy as np
-    import os
-    import sys
-
-
-    import glob, os
-
-    import re
-
-
-    import re
+ 
     numbers = re.compile(r'(\d+)')
     def numericalSort(value):
         parts = numbers.split(value)
