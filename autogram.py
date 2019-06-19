@@ -3,7 +3,7 @@ from StringIO import StringIO
 from collections import Counter
 import string
 
-
+import sys
 import itertools
 import re 
 import math
@@ -59,12 +59,10 @@ for knn in a:
 
     print("///////////////////////Begin of creating all_unigram.txt file//////////")
 
-    import glob, os
-
-    import re
+    
 
     open("all_%dgram.txt" % knn, 'w').close()
-    import re
+   
     numbers = re.compile(r'(\d+)')
     def numericalSort(value):
         parts = numbers.split(value)
@@ -100,20 +98,7 @@ for knn in a:
 
 
     print("///////////////////////Begin of creating term_freq_unigram.arff file//////////")
-    import re
-    import itertools
-
-    # import numpy as np
-    import os
-    import sys
-
-
-    import glob, os
-
-    import re
-
-
-    import re
+ 
     numbers = re.compile(r'(\d+)')
     def numericalSort(value):
         parts = numbers.split(value)
