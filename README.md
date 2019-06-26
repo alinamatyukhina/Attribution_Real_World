@@ -9,18 +9,18 @@ This is a repo for my PhD thesis "Feasibility of Deception in Code Attribution",
 	1.2. To extract code from GoogleCodeJam we used https://github.com/calaylin/CodeStylometry/. This software is written by Aylin Caliskan. The software also parses C and C++ code and extract Caliskan et al. features from C and C++ code. It requires that the development branches of joern and python-joern, and also joern-tools https://joern.io/docs/ be set up for parsing C and C++ code. The details about running this software are available on their GitHub page. 
 	
 	1.3. To remove similarity from datasets, MOSS similarity analysis tool can be used https://theory.stanford.edu/~aiken/moss/. It can be run by using MOSS script (this script can be obtained by contacting to moss@moss.stanford.edu directly). More details about this software are available on their webpage.
-	To clean the data the following steps should be used:
+	To clean the data the following steps can be applied:
 	
-	A. Run MOSS using a command which is indicated in their moss.pl file "moss [-l language] [-d] [-b basefile1] ... [-b basefilen] [-m #] [-c "string"] file1 file2 file3 ...". 
-	Their server outputs a link, for example, http://moss.stanford.edu/results/898124800 
+		A. Run MOSS using a command which is indicated in their moss.pl file "moss [-l language] [-d] [-b basefile1] ... [-b basefilen] [-m #] [-c "string"] file1 file2 file3 ...". 
+		Their server outputs a link, for example, http://moss.stanford.edu/results/898124800 
 	
-	B. The results from accessing this link can be stored to file url.txt after running the following command from command line: "wget -O url.txt 'http://moss.stanford.edu/results/898124800'".
+		B. The results from accessing this link can be stored to file url.txt after running the following command from command line: "wget -O url.txt 'http://moss.stanford.edu/results/898124800'".
 	
-	C. Run moss_tool_plag.py to get the list of files which have the mutual overlap more or equal to selected threshold. Currently the threshold is equal to 10. It can be changed to any number in the "**CHANGE**" in the code
+		C. Run moss_tool_plag.py to get the list of files which have the mutual overlap more or equal to selected threshold. Currently the threshold is equal to 10. It can be changed to any number in the "**CHANGE**" in the code
 	
-	D. To remove files from the folder the standard command in Linux terminal can be used  “rm /path/to/directory/file_name” 
+		D. To remove files from the folder the standard command in Linux terminal can be used  “rm /path/to/directory/file_name” 
 	
-	Repeat A-B-C-D until there will be not be files which have the mutual overlap more or equal to selected threshold. The step is necessary, as MOSS can skip some pairwise comparison files due to the space limitation.   
+		Repeat A-B-C-D until there will be not be files left with the mutual overlap more or equal to selected threshold. The repition is necessary, as MOSS can skip some pairwise comparison files due to the output limitation.   
 	
 
 2. **Extracting features:**
