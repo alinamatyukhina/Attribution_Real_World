@@ -4,15 +4,15 @@ This is a repo for my PhD thesis "Feasibility of Deception in Code Attribution",
 
 The main research contributions (RC) of this PhD thesis:
 
-⋅⋅*RC1: An attack against authorship attribution.
+	RC1: An attack against authorship attribution.
 
-⋅⋅* RC2: A new author obfuscation technique for proprietary and open-source software.
+	RC2: A new author obfuscation technique for proprietary and open-source software.
 
-⋅⋅* RC3: Automated measures for evaluation of author obfuscation methods.
+	RC3: Automated measures for evaluation of author obfuscation methods.
 
-⋅⋅* RC4: An optimal set of data characteristics for authorship attribution task.
+	RC4: An optimal set of data characteristics for authorship attribution task.
 
-⋅⋅* RC5: A comprehensive open-source dataset for authorship attribution.
+	RC5: A comprehensive open-source dataset for authorship attribution.
 
 **This thesis was approved by the Graduate Academic Unit (GAU) of Computer Science at UNB and internal oral examination of this thesis was successfully completed on May, 14th 2019.**
 
