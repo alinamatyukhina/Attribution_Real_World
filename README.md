@@ -62,7 +62,7 @@ During this PhD work, 2 projects with the following undergraduate students- *Cel
 		- term_freq_leaves.arff -Term frequency of code unigrams in AST leaves.
 		- term_freq_unigram.arff -Term frequency of word unigrams in source code.
 		- term_fr_inv_fr_leaf.arff -Term frequency inverse document frequency of code unigrams in AST leaves.
-		- term_fr_inv_fr_node.arff -Term frequency inverse document frequency of 58 possible AST node type excluding leaves.
+		- term_fr_inv_fr_node.arff -Term frequency inverse document frequency of possible AST node type excluding leaves.
 	- *kothari.py* allows to extract Kothari et al. features (described in Kothari et al. study https://ieeexplore.ieee.org/document/4151691)  from source code files. The main output file is kothari.arff, which contains Kothari et al. feature vectors.
 	- *autogram.py* allows to extract byte n-gram features with different n size. The output file is term_freq_%dgram.arff, where d is a n-gram size.
 	- *word_autogram.py* allows to extract token (word)  n-gram features with different n size. The output file is term_freq_%dword.arff, where d is a n-gram size.
