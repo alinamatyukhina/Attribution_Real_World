@@ -2,17 +2,17 @@
 
 This is a repo for my PhD thesis "Feasibility of Deception in Code Attribution", which is conducted at the University of New Brunswick (UNB) under supervision of *Dr. Natalia Stakhanova*. 
 
-The main research contributions (RC) of this PhD thesis:
+The main research contributions of this PhD thesis:
 
-	RC1: An attack against authorship attribution.
+	Research Contribution 1: An attack against authorship attribution.
 
-	RC2: A new author obfuscation technique for proprietary and open-source software.
+	Research Contribution 2: A new author obfuscation technique for proprietary and open-source software.
 
-	RC3: Automated measures for evaluation of author obfuscation methods.
+	Research Contribution 3: Automated measures for evaluation of author obfuscation methods.
 
-	RC4: An optimal set of data characteristics for authorship attribution task.
+	Research Contribution 4: An optimal set of data characteristics for authorship attribution task.
 
-	RC5: A comprehensive open-source dataset for authorship attribution.
+	Research Contribution 5: A comprehensive open-source dataset for authorship attribution.
 
 **This thesis was approved by the Graduate Academic Unit (GAU) of Computer Science at UNB and internal oral examination of this thesis was successfully completed on May, 14th 2019.**
 
