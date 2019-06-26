@@ -38,6 +38,9 @@ import math
 from collections import Counter 
 import glob, os
 
+
+
+#----------------------------------------beginning of term_freq_unigram.arff
 #-------------------------unigrams preprocessing
 numbers = re.compile(r'(\d+)')
 def numericalSort(value):
@@ -222,6 +225,10 @@ for inputFilename1 in sorted(glob.glob('*.finalunig'), key=numericalSort):
         #myfile.write(ar1+","+str(inputFilename1).rsplit('.', 1)[0][-4:][1:]+"\n")
         myfile.write(ar1+","+str(inputFilename1).rsplit('_____', 1)[1].rsplit('.',1)[0]+"\n")
         myfile.close()
+        
+ #----------------------------------------ending of term_freq_unigram.arff
+
+#----------------------------------------begining of "term_freq_leaves.arff"
 
 #-------------------count_finalallf-----------
 
@@ -398,7 +405,11 @@ for inputFilename1 in sorted(glob.glob('*.finallf'), key=numericalSort):
         myfile.write(ar1+","+str(inputFilename1).rsplit('_____', 1)[1].rsplit('.',1)[0]+"\n")
         myfile.close()
 
+#----------------------------------------ending of "term_freq_leaves.arff"
 
+
+
+#----------------------------------------begining of 'term_fr_inv_fr_leaf.arff'
 
 
 #-------------------------leav_inverse_fr.py
@@ -676,7 +687,9 @@ for inputFilename1 in sorted(glob.glob('*.termfrinvfr'), key=numericalSort):
         myfile.write(ar1+","+str(inputFilename1).rsplit('_____', 1)[1].rsplit('.',1)[0]+"\n")
         myfile.close()
 
+#----------------------------------------ending of 'term_fr_inv_fr_leaf.arff'
 
+#----------------------------------------beginning of "av_depth_leaves.arff"
 
 #------write formatdl
 
@@ -791,6 +804,10 @@ for inputFilename1 in sorted(glob.glob('*.formatdl'), key=numericalSort):
         #myfile.write(ar1+","+str(inputFilename1).rsplit('.', 1)[0][-4:][1:]+"\n")
         myfile.write(str(ar1)+","+str(inputFilename1).rsplit('_____', 1)[1].rsplit('.',1)[0]+"\n")
         myfile.close()
+        
+ #----------------------------------------ending of "av_depth_leaves.arff"  
+
+ #----------------------------------------beginning of ""av_node_depth.arff"" 
 
 #write average node depth
 
@@ -846,6 +863,10 @@ for inputFilename1 in sorted(glob.glob('*.nd'), key=numericalSort):
 
         
         myfile.close()
+        
+#----------------------------------------ending of ""av_node_depth.arff"" 
+
+#----------------------------------------beginning of "term_freq_node.arff"
 
 #------tern_freq_node
 
@@ -900,6 +921,8 @@ for inputFilename1 in sorted(glob.glob('*.nf'), key=numericalSort):
         myfile.write(str(ar1)+","+str(inputFilename1).rsplit('_____', 1)[1].rsplit('.',1)[0]+"\n")
         
         myfile.close()
+        
+#---------------------------------ending of "term_freq_node.arff"
 
 
 numbers = re.compile(r'(\d+)')
