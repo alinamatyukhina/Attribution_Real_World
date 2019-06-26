@@ -1,3 +1,16 @@
+#This code allows to extract Ding et al. features (described in Ding et al. study
+#https://www.usenix.org/system/files/conference/usenixsecurity15/sec15-paper-caliskan-islam.pdf)
+#from java source code files using earlier parsed files from step 2.1 in https://github.com/alinamatyukhina/Attribution_Real_World
+
+#This code should be located in the same folder as java files and can be executed by any Python IDEs.
+
+#The input are java files. The names of java files should have the following pattern, such as
+#“a_____N10001.java”, where “a” is a file name, N10001 is an author. For example an author N10001 can have 4 files:
+#“a_____N10001.java”, “b_____N10001.java”, “c_____N10001.java”, “d_____N10001.java”.
+
+
+
+
 import re 
 import itertools
 import codecs
