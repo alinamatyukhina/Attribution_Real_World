@@ -1,3 +1,12 @@
+#This code allows to extract Kothari et al. features (described in Kothari et al. study https://ieeexplore.ieee.org/document/4151691) from source code files. 
+#The main output file is kothari.arff, which contains Kothari et al. feature vectors.
+
+#This code should be located in the same folder as input files and can be executed by any Python IDEs.
+
+#The input are java files. The names of java files should have the following pattern, such as
+#“a_____N10001.java”, where “a” is a file name, N10001 is an author. For example an author N10001 can have 4 files:
+#“a_____N10001.java”, “b_____N10001.java”, “c_____N10001.java”, “d_____N10001.java”.
+
 from functools import partial
 try:
     from StringIO import StringIO
