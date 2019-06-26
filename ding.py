@@ -1,8 +1,6 @@
-#This code allows to extract Ding et al. features (described in Ding et al. study
-#https://www.usenix.org/system/files/conference/usenixsecurity15/sec15-paper-caliskan-islam.pdf)
-#from java source code files using earlier parsed files from step 2.1 in https://github.com/alinamatyukhina/Attribution_Real_World
-
-#This code should be located in the same folder as java files and can be executed by any Python IDEs.
+#This code allows to extract Ding et al. features  (described in Burrows et al. study https://onlinelibrary.wiley.com/doi/abs/10.1002/spe.2146) from source code files using earlier parsed files from step 2.1. 
+#This source code should be located in the same folder as *.java, *.txt, *.com files. 
+#The main output is results.arff file, which contains Ding et al. feature vectors.
 
 #The input are java files. The names of java files should have the following pattern, such as
 #“a_____N10001.java”, where “a” is a file name, N10001 is an author. For example an author N10001 can have 4 files:
