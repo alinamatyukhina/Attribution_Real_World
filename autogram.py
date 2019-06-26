@@ -1,3 +1,12 @@
+#autogram.py allows to extract byte n-gram features with different n size. 
+#The output file is term_freq_%dgram.arff, where d is a n-gram size.
+#This code should be located in the same folder as java files and can be executed by any Python IDEs.
+
+#The input are java files. The names of java files should have the following pattern, such as
+#“a_____N10001.java”, where “a” is a file name, N10001 is an author. For example an author N10001 can have 4 files:
+#“a_____N10001.java”, “b_____N10001.java”, “c_____N10001.java”, “d_____N10001.java”.
+
+
 from functools import partial
 from StringIO import StringIO
 from collections import Counter
