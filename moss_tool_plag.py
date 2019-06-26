@@ -11,7 +11,7 @@ import glob
 #3. The following code moss_tool_plag can be run to get the list of files which have the mutual overlap more or equal to selected threshold
 #Currently the threshold is equal to 10. It can be changed to any number in the **CHANGE** in the code
 #4. To remove files from the folder the standard command in Linux terminal can be used  “rm /path/to/directory/file_name” 
-#Repeat 1-2-3-4 until there will be not be files left with the mutual overlap more or equal to selected threshold. The repition is necessary, as MOSS skips sometimes some pairwise comparison files due to the output limitation.
+#Repeat 1-2-3-4 until there will be not be files left with the mutual overlap more or equal to selected threshold. 
 
 
 
