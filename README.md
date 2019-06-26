@@ -51,18 +51,18 @@ During this PhD work, 2 projects with the following undergraduate students- *Cel
 	2.2. To extract features from the code, the following programs can be used:
 
 	- *ding.py* allows to extract Ding et al. features (described in Burrows et al. study https://onlinelibrary.wiley.com/doi/abs/10.1002/spe.2146) from source code files using earlier parsed files from step 2.1. This source code should be located in the same folder as *.java, *.txt, *.com files. The main output is results.arff file, which contains Ding et al. feature vectors. 
-	- *caliskan.py* allows to extract Caliskan et al. features (described in Caliskan et al. study https://www.usenix.org/system/files/conference/usenixsecurity15/sec15-paper-caliskan-islam.pdf) from java source code files using earlier parsed files from step 2.1.  The main output file is all_Caliskam.arff, which contains Caliskan et al. feature vectors. Also, this program outputs the following feature vectors separately, which can be helpful for feature analysis:
-		- term_freq_unigram.arff -Term frequency of word unigrams in source code.
-		- ast.arff -Term frequency AST node bigrams.
-		- keywords.arff -Term frequency of keywords.
-		- max_depth.arff -Maximum depth of an AST node.
-		- av_node_depth.arff -Average depth of AST node types excluding leaves.
-		- term_freq_node.arff -Term frequency of AST node type excluding leaves.
-		- av_depth_leaves.arff -Average depth of code unigrams in AST leaves.
-		- term_freq_leaves.arff -Term frequency of code unigrams in AST leaves.
-		- term_freq_unigram.arff -Term frequency of word unigrams in source code.
-		- term_fr_inv_fr_leaf.arff -Term frequency inverse document frequency of code unigrams in AST leaves.
-		- term_fr_inv_fr_node.arff -Term frequency inverse document frequency of possible AST node type excluding leaves.
+	- *caliskan.py* allows to extract Caliskan et al. features (described in Caliskan et al. study https://www.usenix.org/system/files/conference/usenixsecurity15/sec15-paper-caliskan-islam.pdf) from java source code files using earlier parsed files from step 2.1.  The main output file is all_Caliskam.arff, which contains Caliskan et al. feature vectors. Also, this program outputs the following feature vectors separately, which were helpful for our feature analysis:
+		- term_freq_unigram.arff -term frequency of word unigrams in source code.
+		- ast.arff -term frequency AST node bigrams.
+		- keywords.arff -term frequency of keywords.
+		- max_depth.arff -maximum depth of an AST node.
+		- av_node_depth.arff -average depth of AST node types excluding leaves.
+		- term_freq_node.arff -term frequency of AST node type excluding leaves.
+		- av_depth_leaves.arff -average depth of code unigrams in AST leaves.
+		- term_freq_leaves.arff -term frequency of code unigrams in AST leaves.
+		- term_freq_unigram.arff -term frequency of word unigrams in source code.
+		- term_fr_inv_fr_leaf.arff -term frequency inverse document frequency of code unigrams in AST leaves.
+		- term_fr_inv_fr_node.arff -term frequency inverse document frequency of possible AST node type excluding leaves.
 	- *kothari.py* allows to extract Kothari et al. features (described in Kothari et al. study https://ieeexplore.ieee.org/document/4151691)  from source code files. The main output file is kothari.arff, which contains Kothari et al. feature vectors.
 	- *autogram.py* allows to extract byte n-gram features with different n size. The output file is term_freq_%dgram.arff, where d is a n-gram size.
 	- *word_autogram.py* allows to extract token (word)  n-gram features with different n size. The output file is term_freq_%dword.arff, where d is a n-gram size.
