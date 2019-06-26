@@ -1,3 +1,13 @@
+#improved.py allows to extract improved features from source code files using earlier parsed files from step 2.1. 
+#Before running this program, the following code should be executed first ding.py, caliskan.py, and autogram.py (n=3 or n=4 depending on the length of code)
+
+#This code should be located in the same folder as java files and can be executed by any Python IDEs.
+
+#The input are java files. The names of java files should have the following pattern, such as
+#“a_____N10001.java”, where “a” is a file name, N10001 is an author. For example an author N10001 can have 4 files:
+#“a_____N10001.java”, “b_____N10001.java”, “c_____N10001.java”, “d_____N10001.java”.
+
+
 import math
 import re
 import itertools
