@@ -1,6 +1,24 @@
 # Attribution_Real_World
 
-This is a repo for my PhD thesis "Feasibility of Deception in Code Attribution", which is conducted at the University of New Brunswick under supervision of *Dr. Natalia Stakhanova*. During my PhD work, 2 projects with the following undergraduate students- *Celine Perley* (Java parsing and GitHub data extraction software) and *Omar Hussein* (control-flow obfuscation) were successfully completed. Credits to *Nguyen Cong Van*- a software developer from UNB-CIC, who provided his advices and help during these software projects. Our recent paper "Adversarial Authorship Attribution in Open-Source Projects" (in collaboration with *Dr. Natalia Stakhanova*,  *Dr. Mila Dalla Preda*, and *Celine Perley*) are available https://dl.acm.org/citation.cfm?id=3300032.   
+This is a repo for my PhD thesis "Feasibility of Deception in Code Attribution", which is conducted at the University of New Brunswick (UNB) under supervision of *Dr. Natalia Stakhanova*. 
+
+The main research contributions of this PhD thesis:
+
+RC1: An attack against authorship attribution.
+
+RC2: A new author obfuscation technique for proprietary and open-source software.
+
+RC3: Automated measures for evaluation of author obfuscation methods.
+
+RC4: An optimal set of data characteristics for authorship attribution task.
+
+RC5: A comprehensive open-source dataset for authorship attribution.
+
+This thesis was approved by the Graduate Academic Unit (GAU) of Computer Science at UNB and internal oral examination of this thesis was successfully completed on May, 14th 2019.
+
+During this PhD work, 2 projects with the following undergraduate students- *Celine Perley* (Java parsing and GitHub data extraction software) and *Omar Hussein* (control-flow obfuscation) were successfully completed. Credits to *Nguyen Cong Van*- a software developer from UNB-CIC, who provided his advices and help during these software projects. Our recent paper "Adversarial Authorship Attribution in Open-Source Projects" (in collaboration with *Dr. Natalia Stakhanova*,  *Dr. Mila Dalla Preda*, and *Celine Perley*) are available https://dl.acm.org/citation.cfm?id=3300032.  
+
+*To promote research in the area of code authorship attribution, I release the software, which I wrote and software, which I used, for the tasks mentioned in the thesis.*
 
 1. **Creating dataset:**
 
