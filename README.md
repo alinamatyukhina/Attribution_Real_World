@@ -1,6 +1,6 @@
 # Attribution_Real_World
 
-This is a repo for my PhD thesis "Feasibility of Deception in Code Attribution", which is conducted at the University of New Brunswick under supervision of Dr. Natalia Stakhanova. Our recent paper "Adversarial Authorship Attribution in Open-Source Projects" (in collaboration with Dr. Natalia Stakhanova, Dr. Mila Dalla Preda and Celine Perley) are available https://dl.acm.org/citation.cfm?id=3300032
+This is a repo for my PhD thesis "Feasibility of Deception in Code Attribution", which is conducted at the University of New Brunswick under supervision of Dr. Natalia Stakhanova. During my PhD work, 2 projects with the following undergraduate students- Celine Perley (Java parsing and GitHub data extraction) and Omar Hussein (control-flow obfuscation) were successfully completed. Our recent paper "Adversarial Authorship Attribution in Open-Source Projects" (in collaboration with Dr. Natalia Stakhanova, Dr. Mila Dalla Preda and Celine Perley) are available https://dl.acm.org/citation.cfm?id=3300032
 
 1. **Creating dataset:**
 
