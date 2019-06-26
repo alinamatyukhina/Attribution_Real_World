@@ -925,6 +925,9 @@ for inputFilename1 in sorted(glob.glob('*.nf'), key=numericalSort):
 #---------------------------------ending of "term_freq_node.arff"
 
 
+#---------------------------------beginning of 'term_fr_inv_fr_node.arff'
+
+
 numbers = re.compile(r'(\d+)')
 def numericalSort(value):
     parts = numbers.split(value)
@@ -1200,7 +1203,9 @@ for inputFilename1 in sorted(glob.glob('*.nodetermfrinvfr'), key=numericalSort):
         #myfile.write(ar1+","+str(inputFilename1).rsplit('.', 1)[0][-4:][1:]+"\n")
         myfile.write(str(ar1)+","+str(inputFilename1).rsplit('_____', 1)[1].rsplit('.',1)[0]+"\n")
         myfile.close()
+#---------------------------------ending of 'term_fr_inv_fr_node.arff'
 
+#---------------------------------beginning of "max_depth.arff"
 
 numbers = re.compile(r'(\d+)')
 def numericalSort(value):
@@ -1303,6 +1308,10 @@ for inputFilename1 in sorted(glob.glob('*.bi'), key=numericalSort):
         #myfile.write(ar1+","+str(inputFilename1).rsplit('.', 1)[0][-4:][1:]+"\n")
         myfile.write(str(ar1)+","+str(inputFilename1).rsplit('_____', 1)[1].rsplit('.',1)[0]+"\n")
         myfile.close()
+        
+#---------------------------------ending of "max_depth.arff"
+
+#---------------------------------beginning of 'keywords.arff'
 
 #keyword count
 
@@ -2638,6 +2647,11 @@ for (inputFilename,nocommentInputFile,parseFilename) in zip(sorted(glob.glob("*.
     g=str(inputFilename).count('_')
     f.write(str(n1)+","+str(inputFilename).rsplit('.', 1)[0].split('_')[g]+"\n")
     f.close()
+    
+#---------------------------------ending of 'keywords.arff'
+
+
+#---------------------------------beginning of "number_of_unique_keywords.arff"
 
 
 numbers = re.compile(r'(\d+)')
@@ -2668,6 +2682,10 @@ with open ("number_of_unique_keywords.arff","a+") as myfile:
         #print(count)
         a.append(count)
 #print(a)
+
+#---------------------------------ending of "number_of_unique_keywords.arff"
+
+#---------------------------------beginning of 'layout'
 
 b=[]
 for (inputFilename,nocommentInputFile,parseFilename) in zip(sorted(glob.glob("*.java"),key=numericalSort), sorted(glob.glob("*.com"),key=numericalSort), sorted(glob.glob("*.txt"),key=numericalSort)) :
@@ -2919,6 +2937,10 @@ for (inputFilename,nocommentInputFile,parseFilename) in zip(sorted(glob.glob("*.
         #print('                           F6: tabsLeadLines=',boo)
         output.write(str(boo)+",")
         output.close()
+       #---------------------------------ending of 'layout'
+    
+    
+           #--------------------------------beginning of 'lexical'
 
         #----------------------lexical
     with open(inputFilename, encoding="latin-1") as f:
@@ -3442,7 +3464,7 @@ for (inputFilename,nocommentInputFile,parseFilename) in zip(sorted(glob.glob("*.
         f = open('layout_lex_Calis.arff','a')
         f.write(str(0)+",")
         f.close()
-
+   #--------------------------------ending of 'lexical'
 
         #------------------------
 
