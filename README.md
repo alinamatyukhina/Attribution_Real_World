@@ -22,13 +22,12 @@ During this PhD work, 2 projects with the following undergraduate students- *Cel
 
 1. **Creating dataset:**
 
-	1.1. To extract code from GitHub, we used *github-extractor.zip*. This software was written by undegraduate student *Celine Perley* with a help of software developer *Nguyen Cong Van*.
+	1.1. To extract code from GitHub, we used *github-extractor.zip*. This software was written by undegraduate student *Celine Perley* with a help of software developer *Nguyen Cong Van* during her internship in our lab.
 	This program calls the GitHub api, and saves the ids and urls of repos that have: 1 contributor and are not forked from another repo. The ids and urls are then written to text files, which are then used to filter each file in the repo by language and number of lines. Files that fit these criteria are uploaded to Dropbox. The main executable file is Main.java.  It can be executed using any Java IDE, such as Eclipse, IntelliJ or Netbeans IDE. String "dirName" should correspondent to the location of ids and urls. 
 	
 	1.2. To extract code from GoogleCodeJam we used https://github.com/calaylin/CodeStylometry/. This software is written by Aylin Caliskan. The software also parses C and C++ code and extract Caliskan et al. features from C and C++ code. It requires that the development branches of joern and python-joern, and also joern-tools https://joern.io/docs/ be set up for parsing C and C++ code. The details about running this software are available on their GitHub page. 
 	
-	1.3. To remove similarity from datasets, MOSS similarity analysis tool can be used https://theory.stanford.edu/~aiken/moss/. It can be run by using MOSS script *moss.pl* (this script can be obtained by contacting to moss@moss.stanford.edu directly). More details about this software are available on their webpage.
-	To clean the data the following steps were applied:
+	1.3. To remove similarity from datasets, MOSS similarity analysis tool can be used https://theory.stanford.edu/~aiken/moss/. It can be run by using MOSS script *moss.pl* (this script can be obtained by contacting to moss@moss.stanford.edu directly). More details about this software are available on their webpage. All the results from running MOSS script is shown on their website and can be analysed there. When this analysis becomes complicated (for example due to the amount of analysed data) the following steps can be applied:
 	
 		A. Run MOSS using a command which is indicated in their moss.pl file "moss [-l language] [-d] [-b basefile1] ... [-b basefilen] [-m #] [-c "string"] file1 file2 file3 ...". 
 		Their server outputs a link, for example, http://moss.stanford.edu/results/898124800 
@@ -39,7 +38,7 @@ During this PhD work, 2 projects with the following undergraduate students- *Cel
 	
 		D. To remove files from the folder the standard command in Linux terminal can be used  “rm /path/to/directory/file_name” 
 	
-		Repeat A-B-C-D until there will be not be files left with the mutual overlap more or equal to selected threshold. The repition is necessary, as MOSS can skip some pairwise comparison files due to the output limitation.   
+		Repeat A-B-C-D until there will be not be files left with the mutual overlap more or equal to selected threshold. The repition is necessary, as MOSS skips sometimes some pairwise comparison files due to the output limitation.   
 	
 
 2. **Extracting features:**
