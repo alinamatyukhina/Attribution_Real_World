@@ -9,7 +9,7 @@ This is a repo for my PhD thesis "Feasibility of Deception in Code Attribution",
 	1.2. To extract code from GoogleCodeJam we used https://github.com/calaylin/CodeStylometry/. This software is written by Aylin Caliskan. The software also parses C and C++ code and extract Caliskan et al. features from C and C++ code. It requires that the development branches of joern and python-joern, and also joern-tools https://joern.io/docs/ be set up for parsing C and C++ code. The details about running this software are available on their GitHub page. 
 	
 	1.3. To remove similarity from datasets, MOSS similarity analysis tool can be used https://theory.stanford.edu/~aiken/moss/. It can be run by using MOSS script (this script can be obtained by contacting to moss@moss.stanford.edu directly). More details about this software are available on their webpage.
-	To clean the data the following steps can be applied:
+	To clean the data the following steps were applied:
 	
 		A. Run MOSS using a command which is indicated in their moss.pl file "moss [-l language] [-d] [-b basefile1] ... [-b basefilen] [-m #] [-c "string"] file1 file2 file3 ...". 
 		Their server outputs a link, for example, http://moss.stanford.edu/results/898124800 
