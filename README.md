@@ -4,7 +4,7 @@ This is a repo for my PhD thesis "Feasibility of Deception in Code Attribution",
 
 The main research contributions (RC) of this PhD thesis:
 
-⋅⋅* RC1: An attack against authorship attribution.
+⋅⋅*RC1: An attack against authorship attribution.
 
 ⋅⋅* RC2: A new author obfuscation technique for proprietary and open-source software.
 
