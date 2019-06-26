@@ -34,7 +34,7 @@ During this PhD work, 2 projects with the following undergraduate students- *Cel
 	
 		B. The results from accessing this link can be stored to file url.txt after running the following command from command line: "wget -O url.txt 'http://moss.stanford.edu/results/898124800'".
 	
-		C. Run moss_tool_plag.py to get the list of files which have the mutual overlap more or equal to selected threshold. Currently the threshold is equal to 10. It can be changed to any number in the "**CHANGE**" in the code
+		C. Run moss_tool_plag.py to get the list of files which have the mutual overlap more or equal to selected threshold. Currently the threshold is equal to 10. It can be changed to any number in the "**CHANGE**" in the code. This code should be located in the same folder as your files. Can be run by any Python IDEs
 	
 		D. To remove files from the folder the standard command in Linux terminal can be used  “rm /path/to/directory/file_name” 
 	
