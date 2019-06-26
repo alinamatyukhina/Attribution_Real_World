@@ -38,7 +38,7 @@ Based on this PhD work, 2 projects with the following undergraduate students- *C
 	
 		D. To remove files from the folder the standard command in Linux terminal can be used  “rm /path/to/directory/file_name” 
 	
-		Repeat A-B-C-D until there will not be files left with the mutual overlap more or equal to a selected threshold. The repetition is necessary, as MOSS sometimes skips some pairwise comparison files due to the output limitation.   	
+		Repeat A-B-C-D until there will not be files left with the mutual overlap more or equal to a selected threshold. The repetition is necessary, as MOSS sometimes skips some pairwise comparison.   	
 
 2. **Extracting features:**
 
