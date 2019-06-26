@@ -4,7 +4,7 @@ This is a repo for my PhD thesis "Feasibility of Deception in Code Attribution",
 
 1. **Creating dataset:**
 
-	1.1. To extract code from GitHub, we used *github-extractor.zip*. This software was written by undegraduate student *Celine Perley* with a help of software developer *Nguyen Cong Van* for her project- GitHub data extraction. My contribution in this project was... 
+	1.1. To extract code from GitHub, we used *github-extractor.zip*. This software was written by undegraduate student *Celine Perley* with a help of software developer *Nguyen Cong Van*.
 	This program calls the GitHub api, and saves the ids and urls of repos that have: 1 contributor and are not forked from another repo. The ids and urls are then written to text files, which are then used to filter each file in the repo by language and number of lines. Files that fit these criteria are uploaded to Dropbox. The main executable file is Main.java.  It can be executed using any Java IDE, such as Eclipse, IntelliJ or Netbeans IDE. String "dirName" should correspondent to the location of ids and urls. 
 	
 	1.2. To extract code from GoogleCodeJam we used https://github.com/calaylin/CodeStylometry/. This software is written by Aylin Caliskan. The software also parses C and C++ code and extract Caliskan et al. features from C and C++ code. It requires that the development branches of joern and python-joern, and also joern-tools https://joern.io/docs/ be set up for parsing C and C++ code. The details about running this software are available on their GitHub page. 
