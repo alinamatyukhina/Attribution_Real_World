@@ -13,3 +13,20 @@ Sorted by lines of code:
 - [301 to 400 LOC](https://drive.google.com/open?id=1jdpZv9Dh9Rk6rS7UJRbqADK7vpWZey00)
 
 - [401 LOC plus](https://drive.google.com/open?id=1pEoNES1sEM4glC-kkPGgQyLd_RlPv3F0)
+
+
+Sorted by number of lines and number of authors (number of samples is fixed and equal to 10 samples per author):
+
+- [0_to_50_LOC_2authors](https://drive.google.com/open?id=1oSAs6ReVt6tVUtVq9tpQRerCnBBnR6cU)
+
+- [0_to_50_LOC_10authors](https://drive.google.com/open?id=1RS2Th4_bAjaZx7EqugXufJPkT8_H7jLO)
+
+- [0_to_50_LOC_20authors](https://drive.google.com/open?id=1LqLth8GYvh6XphIJNQBOcWZEoh87qF5z)
+
+- [0_to_50_LOC_30authors](https://drive.google.com/open?id=1Kr-a-yIMIu0KoRnwdubB8Yxi1Ls1IZgE)
+
+- [0_to_50_LOC_40authors](https://drive.google.com/open?id=1EbwH4-j91PTeYhHAwAl9k8z0DV0c7x9I)
+
+- [0_to_50_LOC_50authors](https://drive.google.com/open?id=1S70QCX8-7xsg1wvhJRCQ6MJAxzTile8C)
+
+- 
