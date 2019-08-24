@@ -16,7 +16,7 @@ The main research contributions of this PhD thesis, which were mentioned in the 
 
 **GAU-internal oral examination of this thesis was successfully completed on May, 14th 2019.**
 
-**Final oral examination of this dissertation was successfully made on August, 23th 2019.** 
+**Final oral examination of this dissertation was successfully made on August, 23th 2019.** The slides are available *presentation_for_phd_defence_Alina.pptx* 
 
 
 Based on this PhD work, 2 projects with the following undergraduate students- *Celine Perley* (Java parsing and GitHub data extraction software) and *Omar Hussein* (control-flow obfuscation) were successfully completed. Credits to *Nguyen Cong Van*- a software developer from UNB-CIC, who provided his advice and help. Some of the results from this PhD work were published recently in the paper "Adversarial Authorship Attribution in Open-Source Projects" (in collaboration with *Dr. Natalia Stakhanova*,  *Dr. Mila Dalla Preda*, and *Celine Perley*) by the Ninth ACM Conference on Data and Application Security and Privacy and are available https://dl.acm.org/citation.cfm?id=3300032.  
