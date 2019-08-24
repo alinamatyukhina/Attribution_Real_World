@@ -2,6 +2,9 @@
 
 This is a repo for my PhD thesis "Feasibility of Deception in Code Attribution", which is conducted at the University of New Brunswick (UNB) under supervision of *Canada Research Chair in Security and Privacy Dr. Natalia Stakhanova*. 
 
+>Code authorship attribution is the process used to identify the probable author of given code, based on the unique characteristics that reflect an author's programming style. Inspired by social studies in the attribution of literary works, in the past two decades researchers have examined the effectiveness of code attribution in the computer software domain, including computer security. Authorship attribution techniques have found a broad application in code plagiarism detection, biometric research, forensics, and malware analysis. Studies show that analysis of software might effectively unveil the digital identity of a programmer, reflected through variables and structures, programming language, employed development tools, their settings and, more importantly, how and what these tools are being used to do.
+
+
 The main research contributions of this PhD thesis, which were mentioned in the thesis:
 
 	Research Contribution 1: An attack against authorship attribution.
