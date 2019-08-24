@@ -1,6 +1,6 @@
 # Attribution_Real_World
 
-This is a repo for my PhD thesis "Feasibility of Deception in Code Attribution", which is conducted at the University of New Brunswick (UNB) under supervision of Canada Research Chair in Security and Privacy *Dr. Natalia Stakhanova*. 
+This is a repo for my PhD thesis "Feasibility of Deception in Code Attribution", which is conducted at the University of New Brunswick (UNB) under supervision of *Canada Research Chair in Security and Privacy Dr. Natalia Stakhanova*. 
 
 The main research contributions of this PhD thesis, which were mentioned in the thesis:
 
